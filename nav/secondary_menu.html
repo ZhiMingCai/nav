@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>二级菜单</title>
+	<link rel="stylesheet" href="css/secondary_menu.css">
+</head>
+<body>
+	<nav id="nav">
+		<ul>
+			<li><a href="###">首页</a>
+				<ul>
+					<li><a href="###">index</a></li>
+					<li><a href="###">主页</a></li>
+				</ul>
+			</li>
+			<li><a href="###">课程大厅</a>
+				<ul>
+					<li><a href="###">javascript</a></li>
+					<li><a href="###">jQuery</a></li>
+				</ul>
+			</li>
+			<li><a href="###">学习中心</a></li>
+			<li><a href="###">经典案例</a></li>
+			<li><a href="###">关于我们</a></li>
+			<div class="clear"></div>
+		</ul>
+	</nav>
+</body>
+</html>
+
+
+<!-- 通过css制作简单的二级菜单
+1.先构造简单的一级菜单
+2.在一级菜单的li里面加ul注意把li的浮动浮动去掉
+3.通过绝对定位对子ui进行定位  参考位置是父的li
+4.通过display：none对子元素进行隐藏  通过 li:hover ul进行显示
+5.测试一下浏览器的兼容 -->
